@@ -28,3 +28,7 @@ If dataset is not available readily for the required problem,
   -collect a small set of data
   -Augement the data
   -Use transfer learning on pretrained models.
+  
+tf.keras can be used to build and train the networks
+
+
