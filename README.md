@@ -32,3 +32,6 @@ If dataset is not available readily for the required problem,
 tf.keras can be used to build and train the networks
 
 
+Resources
+Lyft self driving car semantic segmentation dataset in Kaggle.
+
