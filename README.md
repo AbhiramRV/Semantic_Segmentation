@@ -17,3 +17,14 @@ Some popular DNN architectures for semantic segmentation are  FCN, U-Net, Mask R
 Open data sets available for this task are CamVid,KITTI, CityScape etc
 Classes present in the data set are Road,SideWalk,Building,Wall,Fence,Pole,TrafficLight, TrafficSign, vegetation, Terrain,sky, person,rider,car,truck, bus, train,motorcycle,bicycle,unlabeled etc.
 
+Training a model on an available data set contains following steps
+ - Data loading,Data visualization, Data Augmentation, Data resizing and Train-val-Test splits
+ - Building and compiling model
+ - Training the model
+ - testing and performace evaluation
+ - If satisfied with the model performance, save model as model.h5 
+
+If dataset is not available readily for the required problem,
+  -collect a small set of data
+  -Augement the data
+  -Use transfer learning on pretrained models.
